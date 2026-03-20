@@ -51,7 +51,7 @@ export const comprehensiveAnalysis = async (resumeText, requiredSkills, targetRo
   try {
     console.log("🚀 Starting comprehensive single-API analysis...");
 
-    const GEMINI_API_KEY = process.env_example.GEMINI_API_KEY;
+    const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
     if (!GEMINI_API_KEY) {
       throw new Error('GEMINI_API_KEY is not configured in .env');
     }
