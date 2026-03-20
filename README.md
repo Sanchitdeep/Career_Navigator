@@ -2,6 +2,7 @@ Youtube Link - https://youtu.be/2DcW6A05JF0
 Candidate Name:- Sanchitdeep Singh
 Roll No - B22128
 Run Commands:-
+Write your API key in .env_example and chnage its name to .env
 **Start the backend server:**
    ```bash
    cd Career_Navigator_
