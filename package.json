@@ -1,0 +1,31 @@
+{
+  "name": "skill-bridge-career-navigator",
+  "version": "1.0.0",
+  "description": "Full-stack career navigator with AI-powered skill analysis",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:install": "cd backend && npm install",
+    "backend:start": "cd backend && npm start",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:install": "cd frontend && npm install",
+    "install:all": "npm run backend:install && npm run frontend:install",
+    "setup": "npm install && npm run install:all"
+  },
+  "keywords": [
+    "career",
+    "skills",
+    "resume",
+    "analysis",
+    "ai",
+    "gemini",
+    "learning"
+  ],
+  "author": "Career Navigator Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
